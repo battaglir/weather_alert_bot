@@ -2,7 +2,7 @@ name: warnings
 
 on:
   schedule:
-    - cron: '30 * * * *'   # <-- Set your cron here (UTC). Uses github which can be ~2-10 mins late.
+    - cron: '*/15 * * * *'   # <-- Set your cron here (UTC). Uses github which can be ~2-10 mins late.
   workflow_dispatch:
 
 concurrency:
