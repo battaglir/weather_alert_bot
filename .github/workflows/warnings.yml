@@ -20,12 +20,12 @@ jobs:
           fetch-depth: 1
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '18.x'
+          node-version: 20
 
       - name: Cache node_modules
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         id: npm-cache
         with:
           path: '**/warnings/node_modules'
