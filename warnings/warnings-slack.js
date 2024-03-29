@@ -5,7 +5,7 @@ import jsonminify from 'jsonminify'
 import { WebClient } from '@slack/web-api'
 const SLACK_TOKEN = process.env.SLACK_TOKEN;
 const client = new WebClient(SLACK_TOKEN);
-const SLACK_CHANNEL = "weatheralerts";
+const SLACK_CHANNEL = "weather-alerts";
 const three_ticks = "```";
 
 
